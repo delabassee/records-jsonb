@@ -5,7 +5,7 @@ Some tests using [JSONB](https://javaee.github.io/jsonb-spec/users-guide.html) w
 
 Using `getters`(so-so) or JSON Adapters (more verbose). 
 
-### Deserialization Custom instantiation
+### Deserialization Custom Instantiation using `@JsonbCreator`
 
 >By default, public default no-arguments constructor is required for deserialization. In many scenarios this requirement is too strict. JSON-B provides @JsonbCreator annotation which can be used to annotate a custom constructor with parameters or a static factory method used to create a class instance.
 
